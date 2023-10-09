@@ -1,0 +1,911 @@
+.img-header{
+    width: 100%;
+    height: 985px;
+    margin-top: -115px;
+}
+
+#nameplate {
+    background-color: #152034;
+    height: 254px;
+    position: relative;
+    margin-top: -150px;
+}
+
+#profile-wedding {
+    position: relative;
+    overflow: auto;
+}
+
+.icon-1 {
+    height: 186px;
+    margin: 26px 40px 0 42px;
+}
+
+.icon-2 {
+    height: 186px;
+    /* transform: rotate(180deg); */
+    margin-top: 26px;
+    margin-bottom: 42px;
+    margin-right: 32px;
+}
+
+.title-invitation {
+    color: #EBB567;
+    margin-top: 9px;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.couple-name {
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+.separator-icon {
+    width: 280px;
+    height: 129px;
+    margin-top: -70px;
+}
+
+.date-ceremony {
+    color: #EBB567;
+    margin-top: -50px;
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+    margin-left: 20px;
+}
+
+.icon-3 {
+    /* transform: scaleX(-1); */
+    height: 221px;
+    margin-left: -20px;
+    transform: translate(-70px, -20px);
+    transition: .5s;
+}
+
+.icon-3.muncul {
+    transform: translate(0, 0);
+}
+
+.icon-4 {
+    /* transform: scaleY(-1); */
+    height: 221px;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+
+.greating {
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    /* margin-left: 420px; */
+    margin-top: 56px;
+    font-size: 60px;
+}
+
+.greating-close {
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    /* margin-left: 420px; */
+    margin-top: 56px;
+    font-size: 60px;
+}
+
+.profile-couple {
+    margin-top: 92px;
+}
+
+.text-greating {
+    /* margin-left: 260px; */
+    /* text-align: center; */
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.no-marginLR {
+    width: 100%;
+}
+
+.profile-img {
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    object-position:center;
+    border-radius:50%;
+}
+
+.man-name {
+    margin-top: 30px;
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 21pt;
+}
+
+.separate-and {
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 60px;
+    margin-top: -120px;
+}
+
+.separator-icon-mini {
+    width: 280px;
+    height: 129px;
+    margin-top: -50px;
+    margin-left: -20px;
+    
+}
+
+.man-family {
+    font-size: 11pt;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -40px;
+}
+
+.time-ceremony-side {
+    width: 100%;
+    background-color: #152034;
+    height: 500px;
+    position: relative;
+}
+
+.icon-3-time {
+    /* transform: scaleX(-1); */
+    height: 221px;
+    margin-left: -20px;
+    margin-top: -8px;
+}
+
+.invitation-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #EBB567;
+    font-size: 24px;
+    margin-top: -160px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.time-ceremony {
+    width: 600px;
+    height: 235px;
+    margin-top: 55px;
+}
+
+.location-ceremony {
+    width: 100%;
+    height: 485px;
+    background-color: #152034;
+}
+
+.location-text {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    background-color: #EBB567;
+    
+}
+
+.icon-bottom {
+    margin-top: -150px;
+}
+
+.text-thanks-giving {
+    margin-top: 110px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EBB567;
+    font-size: 24px;
+}
+
+.text-thanks-giving-2 {
+    margin-top: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EBB567;
+    font-size: 24px;
+}
+
+.separator-icon-thanks {
+    width: 366px;
+    height: 186px;
+    margin-top: -50px;
+    margin-bottom: -100px;
+}
+
+.text-thanks-giving-3 {
+    margin-top: 77px;
+    font-family: 'Montserrat', sans-serif;
+    color: #EBB567;
+    font-size: 24px;
+}
+
+.man-name-thank-right {
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 56px;
+    margin-left: 40px;
+}
+
+.man-name-thank-left {
+    color: #EBB567;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 56px;
+    margin-right: 40px;
+}
+
+.time-count-backward {
+    width: 100%;
+    background-color: #152034;
+    height: 410px;
+    position: relative;
+}
+
+.time-count-backwards.muncul {
+    transform: translateY(0);
+}
+
+.title-text-count {
+    color: white;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 60px;
+    padding-top: 64px;
+}
+
+.location-text:hover {
+    text-decoration: none;
+    background-color:  #ffc676;
+}
+
+#timer {
+    font-size: 60px;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #EBB567;
+    display: inline;
+}
+
+.title-gold {
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.title-white-big {
+    font-weight: bold;
+    font-size: 60px;
+    color: white;
+}
+
+.title-white {
+    font-weight: normal;
+    font-size: 28px;
+    color: white;
+}
+
+#googleMap {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+.galery-title {
+    background-color: #EBB567;
+    height: 110px;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-top: 15px;
+}
+
+.row-gallery {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.list-greating-text {
+    font-size: 28px;
+    color: #EBB567;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-item-greating {
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column-gallery {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+
+.column-gallery img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.guest-book-1 {
+    height: 695px;
+    background-color: hsl(219, 42%, 14%);
+}
+
+.title-text-guest-book {
+    background-color: #EBB567;
+    color: white;
+    height: 85px;
+    position: inherit;
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 60px;
+}
+
+.form-guest-book {
+    position: relative;
+    margin-top: -600px;
+}
+
+.greating-title {
+    font-size: 28px;
+    color: #EBB567;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 230px;
+}
+
+.active {
+    font-size: 28px;
+    color: #EBB567;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.unactive {
+    font-size: 28px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-frm::placeholder {
+    color:  #EBB567;
+}
+
+.name-input {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.margined {
+    margin-right: 300px;
+}
+
+.btn-send {
+    margin-right: 20px;
+    background-color:  #EBB567;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 50px;
+}
+
+.act-btn{
+    background:#EBB567;
+    display: block;
+    width: 50px;
+    height: 50px;
+    /* line-height: 50px; */
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    right: 30px;
+    bottom:30px;
+}
+/* .act-btn:hover{background: blue} */
+
+/* .count-second {
+    margin-right: 10px;
+} */
+
+/* .text-white {
+    margin-right: 50px;
+} */
+
+/* .count-days {
+    margin-right: 120px;
+}
+
+.title-white-big {
+    margin-right: 120px;
+}
+
+.count-minutes {
+    margin-right: 100px;
+} */
+
+.time-count-backwards {
+    transform: translateY(50px);
+    transition: .5s;
+}
+
+@media screen and (max-width: 800px) {
+    .column-gallery {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column-gallery {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) { 
+
+    .image-bg {
+        background-image: url('../img/header-mobile.jpeg');
+        /* width: 100%; */
+        height: 687px;
+        min-height: 500px;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        /* position: absolute; */
+    }
+
+    .img-header {
+        display: none;
+    }
+
+    #nameplate {
+        height: 203px;
+        margin-top: -20px;
+    }
+
+    .icon-1 {
+        height: 127px;
+        margin: 15px 30px 0 2px;
+        transform: translateX(-15px);
+        transition: .5s;
+    }
+
+    .icon-1.muncul {
+        transform: translateX(0);
+    }
+
+    .icon-2 {
+        height: 127px;
+        margin-top: -115px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: 0px;
+        transform: translateX(15px);
+        transition: .5s;
+    }
+
+    .icon-2.muncul {
+        transform: translateX(0);
+    }
+
+    .title-invitation {
+        font-size: 14px;
+        margin-left: 0;
+        margin-top: -110px;
+        transform: translateY(20px);
+        transition: .5s;
+    }
+
+    .title-invitation.muncul{
+        transform: translateY(0);
+    }
+
+    .couple-name {
+        margin-left: 0;
+        margin-bottom: 5px;
+        font-size: 50px;
+        transform: translateY(20px);
+        transition: .5s;
+    }
+    .couple-name.muncul {
+        transform: translateY(0);
+    }
+
+    .separator-icon {
+        margin-left: -10px;
+        transform: translateY(20px);
+        transition: .5s;
+    }
+
+    .separator-icon.muncul {
+        transform: translateY(0);
+    }
+
+    .date-ceremony {
+        margin-left: 0;
+        font-size: 14px;
+        transform: translateY(20px);
+        transition: .5s;
+    }
+
+    .date-ceremony.muncul {
+        transform: translateY(0);
+    }
+
+    .icon-3 {
+        height: 90px;
+        transform: translate(-70px, -20px);
+        transition: .8s;
+    }
+
+    .icon-3.muncul {
+        transform: translate(0, 0);
+    }
+
+    .icon-4 {
+        height: 90px;
+        margin-left: 265px;
+        /* transform: translate(50px, 50px);
+        transition: .8s; */
+    }
+
+    /* .icon-4.muncul {
+        transform: translate(0, 0);
+    } */
+
+    .greating {
+        font-size: 40px;
+        margin-top: -50px;
+        transform: translateY(100px);
+        transition: .8s;
+    }
+
+    .greating.muncul {
+        transform: translateY(0);
+    }
+
+    .text-greating {
+        text-align: center;
+        font-size: 12px;
+        transform: translateY(200px);
+        transition: 1s;
+    }
+
+    .text-greating.muncul {
+        transform: translateY(0);
+    }
+
+    .your-content {
+        display: block;
+    }
+
+    #googleMap {
+        width: 100%;
+        height: 200px;
+    }
+
+    .profile-img {
+        width:150px;
+        height:150px;
+    }
+
+    .profile-man {
+        transform: translateY(50px);
+        transition: .8s;
+    }
+
+    .profile-man.muncul {
+        transform: translateY(0);
+    }
+
+    /* .profile-woman {
+        transform: translateY(150px);
+        transition: .8s;
+    }
+
+    .profile-woman.muncul {
+        transform: translateY(0);
+    } */
+
+    .man-name {
+        font-size: 30px;
+    }
+
+    .separate-and {
+        margin-top: 20px;
+        font-size: 30px;
+        margin-bottom: 20px;
+        /* transform: translateY(50px);
+        transition: .5s; */
+    }
+
+    /* .separate-and.muncul {
+        transform: translateY(0);
+    } */
+
+    .man-family {
+        font-size: 14px;
+    }
+
+    .woman-family {
+        font-size: 14px;
+    }
+
+    .icon-3-time {
+        height: 90px;
+        transform: translate(-70px, -20px);
+        transition: .8s;
+    }
+
+    .icon-3-time.muncul {
+        transform: translate(0, 0);
+    }
+
+    .invitation-text {
+        font-size: 12px;
+        margin: -20px 8px 0;
+        transform: translateY(50px);
+        transition: .5s;
+    }
+
+    .invitation-text.muncul {
+        transform: translateY(0);
+    }
+
+    .time-ceremony {
+        width: 250px;
+        height: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        transform: translateY(50px);
+        transition: .5s;
+    }
+
+    .time-ceremony.muncul {
+        transform: translateY(0);
+    }
+
+    .time-ceremony-side {
+        height: 350px;
+        background-image: url('../img/bg-image.jpg');
+        background-position: top;
+        background-size: cover;
+    }
+
+    .thanks-givings {
+        transform: translateY(50px);
+        transition: .5s;
+    }
+
+    .thanks-givings.muncul {
+        transform: translateY(0);
+    }
+
+    .bg-image {
+        background-color: #152034;
+        /* background-position: top;
+        background-size: cover; */
+        height: 350px;
+        opacity: 0.9;
+    }
+
+    .location-ceremony {
+        background-color: #EBB567;
+        margin-top: -10px;
+        height: 270px;
+        padding-top: 10px;
+    }
+
+    .location-text {
+        font-size: 20px;
+        background-color: #152034;
+    }
+
+    .text-thanks-giving {
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .text-thanks-giving-2 {
+        font-size: 14px;
+        margin-top: 40px;
+    }
+
+    .text-thanks-giving-3 {
+        font-size: 14px;
+        margin-top: 29px;
+    }
+
+    .separator-icon-thanks {
+        width: 216px;
+        height: 110px;
+    }
+
+    .greating-close {
+        font-size: 25px;
+        margin-top: 40px;
+    }
+
+    .profile-couple {
+        margin-top: 42px;
+    }
+
+    .man-name-thank {
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+
+    .man-name-thank-right {
+        font-size: 20px;
+        margin-left: 15px;
+        text-align: center;
+    }
+    
+    .man-name-thank-left {
+        /* margin-left: 50px; */
+        font-size: 20px;
+        margin-right: 15px;
+        text-align: center;
+    }
+
+    .icon-bottom {
+        margin-top: 0px;
+    }
+
+    /* .time-count-backward {
+        display: none;
+    } */
+
+    /* #icongiving {
+        display: none;
+    } */
+
+    .galery-title {
+        font-size: 30px;
+        height: 55px;
+        padding-top: 8px;
+    }
+
+    .title-text-guest-book {
+        font-size: 30px;
+        height: 55px;
+        padding-top: 8px;
+        opacity: 1;
+    }
+
+    .guest-book-1 {
+        background-image: url('../img/gallery-portraits/1.jpeg');
+        background-position: top;
+        background-size: cover;
+    }
+
+    .guest-book-2 {
+        height: 695px;
+        background-color: #152034;
+        opacity: 0.9;
+    }
+
+    .form-guest-book {
+        position: relative;
+        margin-top: -650px;
+    }
+
+    .greating-title {
+        font-size: 14px;
+        color: #EBB567;
+        padding-top: 140px;
+    }
+
+    .active {
+        font-size: 14px;
+        color: #EBB567;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .unactive {
+        font-size: 14px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .name-input {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .margined {
+        margin-right: 8px;
+    }
+
+    .btn-send {
+        margin-right: 50px;
+    }
+
+    #greatingInput {
+        font-size: 14px;
+    }
+
+    #timer {
+        font-size: 28px;
+    }
+
+    .title-gold {
+        font-size: 14px;
+    }
+
+    .title-white-big {
+        font-size: 28px;
+    }
+
+    .title-text-count {
+        font-size: 30px;
+    }
+
+    .title-white {
+        font-size: 14px;
+    }
+
+    .time-count-backward {
+        height: 210px;
+    }
+
+    .title-text-count {
+        padding-top: 30px;
+    }
+
+    .timer-content {
+        padding-left: 20px;
+    }
+
+    #nameInput {
+        font-size: 14px;
+    }
+
+    .list-greating {
+        padding: 0 40px 0;
+    }
+
+    .list-greating-text {
+        font-size: 14px;
+        color: #EBB567;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .card-item-greating {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 576px) { 
+    .man-name-thank-right {
+        font-size: 20px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    
+    .man-name-thank-left {
+        font-size: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+}
+
