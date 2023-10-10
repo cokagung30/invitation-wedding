@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.title-invitation').addClass('muncul');
     $('.icon-2').addClass('muncul');
     $('.desktop-view').hide();
-    $('.playmusic').hide();
+    $('#musicplayer').hide();
 
     showGreating();
 });
@@ -103,8 +103,12 @@ $('.open-button').on('click', function() {
 
     setInterval(function() {
         $('.desktop-view').show(1000);
-        $('.playmusic').show();
+        $('#musicplayer').show();
     }, 200);
+
+    $('#musicplayer').removeClass('playmusic');
+    $('#musicplayer').addClass('stopmusic');
+    playAudio();
 });
 
 $('.write-great').on('click', function () {
@@ -176,11 +180,11 @@ $('#musicplayer').on('click', function () {
     const classNamed = this.className;
     const realClass = classNamed.split("act-btn ");
     if (realClass[1] === "stopmusic") {
+        console.log('sini');
         $('#musicplayer').removeClass('stopmusic');
         $('#musicplayer').addClass('playmusic');
         pauseAudio();
     } else if (realClass[1] === "playmusic") {
-        console.warn('sini');
         $('#musicplayer').removeClass('playmusic');
         $('#musicplayer').addClass('stopmusic');
         playAudio();
