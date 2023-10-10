@@ -5,7 +5,7 @@ body, html  {
 }
 
 .initial-container {
-    background-image: url("../img/gallery-portraits/3.jpg");
+    background-image: url("../img/initial.jpg");
 
     /* Full height */
     height: 100%;

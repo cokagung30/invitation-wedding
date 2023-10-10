@@ -102,9 +102,9 @@ $('.open-button').on('click', function() {
     $('.initial-container').hide(500);
 
     setInterval(function() {
-        $('.desktop-view').show(500);
+        $('.desktop-view').show(1000);
         $('.playmusic').show();
-    }, 501);
+    }, 200);
 });
 
 $('.write-great').on('click', function () {
