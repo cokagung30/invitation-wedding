@@ -619,7 +619,7 @@ body, html  {
     }
 
     .image-bg {
-        background-image: url('../img/header-mobile.jpg');
+        /* background-image: url('../img/header-mobile.jpg'); */
         /* width: 100%; */
         height: 687px;
         min-height: 500px;
@@ -627,6 +627,7 @@ body, html  {
         background-position: top;
         background-repeat: no-repeat;
         /* position: absolute; */
+        transition: background 1s ease-in;
     }
 
     .img-header {

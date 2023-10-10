@@ -5,6 +5,24 @@ $(document).ready(function () {
     $('.desktop-view').hide();
     $('#musicplayer').hide();
 
+    const images = [
+        '../assets/img/gallery/1.jpg',
+        '../assets/img/gallery/2.jpg',
+        '../assets/img/gallery/3.jpg',
+        '../assets/img/gallery/4.jpg'
+    ];
+    
+    let currentIndex = 0;
+    const backgroundContainer = document.querySelector('.image-bg');
+    
+    function changeBackground() {
+        backgroundContainer.style.backgroundImage = `url(${images[currentIndex]})`;
+        currentIndex = (currentIndex + 1) % images.length;
+    }
+    
+    setInterval(changeBackground, 8000);
+    changeBackground();
+
     showGreating();
 });
 
