@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('.icon-1').addClass('muncul');
     $('.title-invitation').addClass('muncul');
     $('.icon-2').addClass('muncul');
-    // $('.desktop-view').hide();
+    $('.desktop-view').hide();
     $('.playmusic').hide();
 
     showGreating();
@@ -97,6 +97,15 @@ var x = setInterval(function () {
         document.getElementById("timer").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+$('.open-button').on('click', function() {
+    $('.initial-container').hide(500);
+
+    setInterval(function() {
+        $('.desktop-view').show(500);
+        $('.playmusic').show();
+    }, 501);
+});
 
 $('.write-great').on('click', function () {
     $('.greting-list').removeClass('active');
