@@ -2,6 +2,8 @@ $(document).ready(function () {
     $('.icon-1').addClass('muncul');
     $('.title-invitation').addClass('muncul');
     $('.icon-2').addClass('muncul');
+    // $('.desktop-view').hide();
+    $('.playmusic').hide();
 
     showGreating();
 });

@@ -1,6 +1,6 @@
 .img-header{
     width: 100%;
-    height: 985px;
+    height: 900px;
     margin-top: -115px;
 }
 
@@ -462,7 +462,7 @@
 @media (max-width: 575.98px) { 
 
     .image-bg {
-        background-image: url('../img/header-mobile.jpeg');
+        background-image: url('../img/header-mobile.jpg');
         /* width: 100%; */
         height: 687px;
         min-height: 500px;
