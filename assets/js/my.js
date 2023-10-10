@@ -191,6 +191,10 @@ $('#musicplayer').on('click', function () {
     }
 });
 
+$('.copy-text-button').on('click', function() {
+    navigator.clipboard.writeText('1375225454');
+});
+
 function showGreating() {
     const dbRef = firebase.database();
     const attendances = dbRef.ref("attendance");
